@@ -1,0 +1,109 @@
+<!-- menu.html (Menu Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Café Billing System</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+    
+    <section id="menu">
+        <div class="menu-item">
+            <img src="images/coffee.jpg" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>Price: ₹50</p>
+            <input type="number" id="coffee-qty" value="1" min="1">
+            <button onclick="addToCart('Coffee', 50, 'coffee-qty')">Add to Cart</button>
+        </div>
+        
+        <div class="menu-item">
+            <img src="images/French Fries.jpg" alt="Tea">
+            <h3>French Fries</h3>
+            <p>Price: ₹90</p>
+            <input type="number" id="French Fries-qty" value="1" min="1">
+            <button onclick="addToCart('French Fries', 90, 'French Fries-qty')">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/Margherita Pizza.jpg" alt="Tea">
+            <h3>Margherita Pizza</h3>
+            <p>Price: ₹150</p>
+            <input type="number" id="Margherita Pizza-qty" value="1" min="1">
+            <button onclick="addToCart('Margherita Pizza', 150, 'Margherita Pizza-qty')">Add to Cart</button>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="images/milkshake.jpg" alt="Tea">
+        <h3>milkshake</h3>
+        <p>Price: ₹80</p>
+        <input type="number" id="milkshake-qty" value="1" min="1">
+        <button onclick="addToCart('milkshake', 80, 'milkshake-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/burger.jpg" alt="Tea">
+        <h3>burger</h3>
+        <p>Price: ₹130</p>
+        <input type="number" id="burger-qty" value="1" min="1">
+        <button onclick="addToCart('burger', 130, 'burger-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/Americano.avif" alt="Tea">
+        <h3>Americano</h3>
+        <p>Price: ₹160</p>
+        <input type="number" id="Americano-qty" value="1" min="1">
+        <button onclick="addToCart('Americano', 160, 'Americano-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/chocolate shake.jpg" alt="Tea">
+        <h3>chocolate shake</h3>
+        <p>Price: ₹99</p>
+        <input type="number" id="chocolate shake-qty" value="1" min="1">
+        <button onclick="addToCart('chocolate shake', 99, 'chocolate shake-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/momos.avif" alt="Tea">
+        <h3>momos</h3>
+        <p>Price: ₹99</p>
+        <input type="number" id="momos-qty" value="1" min="1">
+        <button onclick="addToCart('momos', 99, 'momos-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/rice pepar roll.avif" alt="Tea">
+        <h3>rice pepar roll</h3>
+        <p>Price: ₹199</p>
+        <input type="number" id="rice pepar roll-qty" value="1" min="1">
+        <button onclick="addToCart('rice pepar roll', 199, 'rice pepar roll-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/sandwich.avif" alt="Tea">
+        <h3>sandwich</h3>
+        <p>Price: ₹99</p>
+        <input type="number" id="sandwich-qty" value="1" min="1">
+        <button onclick="addToCart('sandwich', 99, 'sandwich-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/waffle.avif" alt="Tea">
+        <h3>waffle</h3>
+        <p>Price: ₹149 </p>
+        <input type="number" id="waffle-qty" value="1" min="1">
+        <button onclick="addToCart('waffle', 149, 'waffle-qty')">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+        <img src="images/dumpling.avif" alt="Tea">
+        <h3>dumpling</h3>
+        <p>Price: ₹199 </p>
+        <input type="number" id="dumpling-qty" value="1" min="1">
+        <button onclick="addToCart('dumpling', 199, 'dumpling-qty')">Add to Cart</button>
+    </div>
+        
+        <!-- Add more menu items here -->
+    </section>
+    
+    <a href="billing.html" class="next-btn">Next</a>
+</body>
+</html>
